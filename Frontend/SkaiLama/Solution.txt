@@ -1,0 +1,7 @@
+- Make a ProductListing page: 
+    - images
+    - Title
+    - Pricing & Rating
+    - Add To Cart Button
+
+When a product added  - It appers in cartPage
