@@ -1,0 +1,25 @@
+Need to build a Task Manager Web 
+    - Add new Task
+    - Mark Task as completed
+    - Delete Task as completed
+    - Filter Tasks  - completed/Pending
+    - Presist into localStora - Optional
+
+1. Input of form taken : 
+    id : 
+    name: "task_name"
+    completed: false
+
+Solution: 
+    - Pages : 
+        - Task Input Form Page: useState setNewTask
+        - Task List: Show all Tasks
+
+    - components:
+        - TaskCard : showing task name, completed_status, Delete and update task button
+
+    - Delete and update managing through the useReducer for more good state management
+
+    - Skipping the localStore at this moment
+
+    - ADD_TASK, DELETE_TASK, UPDATE_TASK - 
