@@ -1,0 +1,30 @@
+Build a Book Store Management System
+ - Admin : View, Add, Update, Delete and Search Books
+ - BookListPage : 
+        {
+            title: string,
+            price: double,
+            category: string,
+            thumbnail: string // s3 link 
+        }
+
+ - Add Book Page : BookAdding page
+ - Edit Book Page : update existing book
+ - Delete Book : Remove a book from list
+ - Redux Usage : store + update Book state
+ - Routing: react-router-dom / -> bookList -> /add -> addBook -> /edit/:id -> EditPage.
+ - Search Filter: Search a book by filters.
+
+
+ - Pages: 
+     - BookList.jsx
+     - AddBook.jsx
+     - EditBook.jsx
+ - Components: 
+     - BookCard.jsx
+     - BookForm.jsx
+ - redux: 
+     - store.js
+     - bookSlice.js
+     
+    
